@@ -101,8 +101,14 @@
    <modules>
        <module>open-cloud-boot</module>
        <module>open-cloud-common</module>
+       <module>open-cloud-component</module>
        <module>open-cloud-framework</module>
        <module>open-cloud-middleware</module>
+       <module>open-cloud-scheduled</module>
+       <module>open-cloud-springcloud</module>
+       <module>open-cloud-springboot</module>
+       <module>open-cloud-dubbo</module>
+       <module>open-cloud-sso</module>
    </modules>
 
     <repositories>
