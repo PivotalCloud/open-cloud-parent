@@ -14,10 +14,12 @@
     <name>open-cloud-parent</name>
     <description>OpenCloud云服务内部依赖管理</description>
     <packaging>pom</packaging>
+
     <properties>
         <java.version>1.8</java.version>
         <open-cloud.version>0.0.1-SNAPSHOT</open-cloud.version>
     </properties>
+
     <dependencyManagement>
         <dependencies>
             <!--OpenCloud依赖配置-->
@@ -98,6 +100,9 @@
 
    <modules>
        <module>open-cloud-boot</module>
+       <module>open-cloud-common</module>
+       <module>open-cloud-framework</module>
+       <module>open-cloud-middleware</module>
    </modules>
 
     <repositories>
